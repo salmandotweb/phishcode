@@ -1,0 +1,15 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  height: 5rem;
+  background: var(--dark-blue);
+}
+.logo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding: 1.5rem 2rem;
+  color: rgb(242, 242, 242);
+  font-family: "Montserrat", sans-serif;
+}

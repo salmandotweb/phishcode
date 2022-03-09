@@ -1,0 +1,87 @@
+.header_1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  background: var(--white);
+  border-bottom: 0.1rem solid rgb(206, 206, 206);
+}
+.container button {
+  font-weight: 700;
+}
+.header_2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+  border-bottom: 0.1rem solid rgb(206, 206, 206);
+  padding: 1rem 1rem;
+}
+.search_input {
+  font-family: inherit;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #aaa;
+  color: var(--dark-blue);
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.select_btn {
+  background: var(--dark-blue) !important;
+  border: none;
+  border-radius: 0.4rem;
+  font-family: inherit;
+  padding: 0.6rem 1.2rem;
+  background: none;
+  color: var(--white);
+  cursor: pointer;
+  position: relative;
+}
+.select_btn > p {
+  display: flex;
+  align-items: center;
+}
+.select_btn > p > svg {
+  margin-left: 1rem;
+  font-size: 1.4rem;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right > button {
+  background: var(--dark-blue) !important;
+  border: none;
+  border-radius: 0.4rem;
+  font-family: inherit;
+  padding: 0.6rem 1.2rem;
+  background: none;
+  color: var(--white);
+  cursor: pointer;
+  margin-left: 2rem;
+}
+
+.user_dropdown {
+  position: absolute;
+  left: 0;
+  top: 3.5rem;
+  min-width: 23rem;
+  color: var(--white);
+  padding: 1rem;
+  background: var(--dark-blue);
+  z-index: 10000;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 0.3rem;
+}
+.user_dropdown > button {
+  font-size: 1.4rem;
+  color: var(--white);
+  padding: 0.2rem 0;
+  font-weight: 500;
+}
+.csvBtn {
+  font-size: 1.4rem;
+}

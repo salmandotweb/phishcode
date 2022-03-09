@@ -1,0 +1,100 @@
+/* Global styles */
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+}
+
+:root {
+  --black: #01010f;
+  --white: #ffffff;
+  --light-grey: #eceff1;
+  --dark-blue: #071330;
+  --light-blue: #0c4160;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.6rem;
+}
+
+code {
+  font-family: "Nunito", sans-serif;
+}
+
+a {
+  color: var(--white);
+  width: 100%;
+}
+
+button {
+  background: none;
+  font-family: inherit;
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.98);
+}
+.react-tabs__tab--selected {
+  border-bottom: 0.2rem solid var(--light-blue) !important;
+  background: none !important;
+  color: var(--light-blue) !important;
+}
+.pro-sidebar > .pro-sidebar-inner {
+  background: var(--dark-blue) !important;
+}
+.SidebarPro_header__qECH9 {
+  height: 100%;
+}
+.pro-icon-wrapper {
+  background-color: var(--light-blue) !important;
+}
+.pro-sidebar {
+  color: var(--white) !important;
+}
+.pro-item-content:hover {
+  color: #aaa !important;
+}
+.active {
+  color: var(--white) !important;
+}
+.administration_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: #aaa;
+}
+.rdt_TableCol {
+  font-size: 1.6rem !important;
+  font-weight: 800 !important;
+}
+.rdt_TableCell {
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+}
+.pro-inner-item {
+  width: 100%;
+}
+.pro-item-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
